@@ -8,11 +8,9 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
 </head>
@@ -24,7 +22,7 @@
                 <svg class="logo-icon" width="40" height="40" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C13.57 22 15.06 21.66 16.4 21.06C16.79 21.2 17.2 21.3 17.62 21.3C19.49 21.3 21 19.8 21 18C21 16.65 20.12 15.52 18.91 15.15C19.59 14.15 20 12.93 20 11.5C20 7.84 16.83 5.34 13.5 5.04C13 3.62 11.62 2.5 10 2.5C7.99 2.5 6.27 3.86 5.6 5.69C4.19 6.54 3.1 8.1 3.03 10C3 10.17 3 10.33 3 10.5C3 11.33 3.17 12.12 3.48 12.85C2.56 13.82 2 15.06 2 16.5C2 18.43 3.57 20 5.5 20C6.07 20 6.6 19.86 7.08 19.63C7.6 20.5 8.44 21.2 9.5 21.58C10.26 21.85 11.1 22 12 22ZM10 4.5C10.83 4.5 11.5 5.17 11.5 6C11.5 6.83 10.83 7.5 10 7.5C9.17 7.5 8.5 6.83 8.5 6C8.5 5.17 9.17 4.5 10 4.5ZM5.5 18C4.67 18 4 17.33 4 16.5C4 15.67 4.67 15 5.5 15C6.33 15 7 15.67 7 16.5C7 17.33 6.33 18 5.5 18ZM17.62 19.3C16.96 19.3 16.4 18.74 16.4 18.08C16.4 17.42 16.96 16.86 17.62 16.86C18.28 16.86 18.84 17.42 18.84 18.08C18.84 18.74 18.28 19.3 17.62 19.3Z"/>
                 </svg>
-                <span>LUMEN Speech and Hearing</span>
+                <span>LUMEN</span>
             </a>
             <nav class="nav-menu">
                 <ul>
@@ -45,64 +43,65 @@
     <main>
 
         <section id="home" class="hero-section">
-            <div class="hero-content" data-aos="fade-up">
-                <h1>Empowering Communication, Enhancing Hearing</h1>
-                <p>Expert speech and hearing care for children and adults.</p>
-                <a href="#contact" class="btn btn-primary">Book Appointment</a>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="gsap-hero-title">Empowering Communication,<br>Enhancing Hearing</h1>
+                    <p class="gsap-hero-subtitle">Expert speech and hearing care for all ages, delivered with compassion and precision.</p>
+                    <a href="#contact" class="btn btn-primary gsap-hero-button">Book Appointment</a>
+                </div>
             </div>
-            <div class="hero-waves"></div>
         </section>
 
         <section id="about" class="about-section">
-            <div class="container" data-aos="fade-up" data-aos-delay="200">
-                <h2>Welcome to LUMEN</h2>
-                <p class="about-intro">
-                    At LUMEN Speech and Hearing, we are dedicated to providing compassionate, patient-centered care. Our certified professionals use the latest technology and evidence-based practices to help you or your loved ones overcome communication challenges and live a fuller life.
+            <div class="container">
+                <h2 class="gsap-fade-up">Welcome to a World of Clearer Communication</h2>
+                <p class="about-intro gsap-fade-up">
+                    LUMEN Speech and Hearing is a center of excellence in Haryana, founded on the principle of patient-centered care. We blend cutting-edge technology with personalized treatment plans to help you and your loved ones reconnect with the world through sound and speech.
                 </p>
-                <div class="locations">
-                    <h3>Our Locations:</h3>
-                    <span><i class="fa-solid fa-location-dot"></i> Hisar</span>
-                    <span><i class="fa-solid fa-location-dot"></i> Hansi</span>
-                    <span><i class="fa-solid fa-location-dot"></i> Bhiwani</span>
+                <div class="stats-container gsap-stagger-children">
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-target="15">0</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-target="5000">0</h3>
+                        <p>Happy Patients</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-target="3">0</h3>
+                        <p>Clinic Locations</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="services" class="services-section">
             <div class="container">
-                <h2 data-aos="fade-up">Our Services</h2>
-                <div class="services-grid">
-                    <a href="speech-therapy.html" class="service-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="service-icon">
-                            <i class="fa-solid fa-comments"></i>
-                        </div>
+                <h2 class="gsap-fade-up">Our Comprehensive Services</h2>
+                <div class="services-grid gsap-stagger-children">
+                    <a href="speech-therapy.html" class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-comments"></i></div>
                         <h3>Speech Therapy</h3>
                         <p>Addressing language delays, articulation, stuttering, and voice disorders with personalized therapy plans.</p>
-                        <span class="learn-more">Learn More &rarr;</span>
+                        <span class="learn-more">Explore Therapy <i class="fa-solid fa-arrow-right"></i></span>
                     </a>
-                    <a href="audiology.html" class="service-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="service-icon">
-                            <i class="fa-solid fa-ear-listen"></i>
-                        </div>
-                        <h3>Audiology</h3>
-                        <p>Comprehensive diagnostic tests including PTA, BERA, OAE, and Impedance Audiometry for accurate assessment.</p>
-                        <span class="learn-more">Learn More &rarr;</span>
+                    <a href="audiology.html" class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-ear-listen"></i></div>
+                        <h3>Audiological Diagnostics</h3>
+                        <p>Comprehensive tests including PTA, BERA, OAE, and Impedance for accurate hearing assessment.</p>
+                        <span class="learn-more">View Tests <i class="fa-solid fa-arrow-right"></i></span>
                     </a>
-                    <a href="hearing-aids.html" class="service-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="service-icon">
-                            <i class="fa-solid fa-assistive-listening-systems"></i>
-                        </div>
-                        <h3>Hearing Aids</h3>
-                        <p>Offering a wide range of digital hearing aids from top brands, with professional fitting and servicing.</p>
-                        <span class="learn-more">Learn More &rarr;</span>
+                    <a href="hearing-aids.html" class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-assistive-listening-systems"></i></div>
+                        <h3>Digital Hearing Aids</h3>
+                        <p>Offering a wide range of devices from top brands, with professional fitting, programming, and service.</p>
+                        <span class="learn-more">Find Your Fit <i class="fa-solid fa-arrow-right"></i></span>
                     </a>
-                    <a href="cochlear-implant.html" class="service-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="service-icon">
-                            <i class="fa-solid fa-brain"></i>
-                        </div>
+                    <a href="cochlear-implant.html" class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
                         <h3>Cochlear Implant & AVT</h3>
-                        <p>Providing CI mapping and Auditory Verbal Therapy (AVT) through a family-centered approach.</p>
-                        <span class="learn-more">Learn More &rarr;</span>
+                        <p>Complete support from CI mapping to Auditory Verbal Therapy through a family-centered approach.</p>
+                        <span class="learn-more">Learn About CI <i class="fa-solid fa-arrow-right"></i></span>
                     </a>
                 </div>
             </div>
@@ -110,27 +109,27 @@
 
         <section id="blog" class="blog-section">
             <div class="container">
-                <h2 data-aos="fade-up">From Our Blog</h2>
-                <div class="blog-grid">
-                    <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
-                        <img src="https://images.unsplash.com/photo-1582794429937-1e5927565457?q=80&w=2070&auto=format&fit=crop" alt="A child playing with letter blocks">
+                <h2 class="gsap-fade-up">Insights from Our Experts</h2>
+                <div class="blog-grid gsap-stagger-children">
+                    <article class="blog-card">
+                        <img src="https://images.pexels.com/photos/7692348/pexels-photo-7692348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A child happily learning with a speech therapist">
                         <div class="blog-content">
-                            <h3>5 Signs Your Child Needs Speech Therapy</h3>
-                            <a href="#" class="read-more">Read More</a>
+                            <h3>5 Signs Your Child May Need Speech Therapy</h3>
+                            <a href="#" class="read-more">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </article>
-                    <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
-                        <img src="https://images.unsplash.com/photo-1610466024868-c112b737eba7?q=80&w=2070&auto=format&fit=crop" alt="Audiological equipment for BERA test">
+                    <article class="blog-card">
+                        <img src="https://images.pexels.com/photos/7174431/pexels-photo-7174431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="An audiologist conducting a hearing test with modern equipment">
                         <div class="blog-content">
-                            <h3>What is a BERA Test and Why is it Important?</h3>
-                            <a href="#" class="read-more">Read More</a>
+                            <h3>Understanding the BERA Test: What to Expect</h3>
+                            <a href="#" class="read-more">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </article>
-                    <article class="blog-card" data-aos="fade-up" data-aos-delay="300">
-                        <img src="https://images.unsplash.com/photo-1601051019579-33de8e7b5e4b?q=80&w=2070&auto=format&fit=crop" alt="An elderly person holding a modern hearing aid">
+                    <article class="blog-card">
+                        <img src="https://images.pexels.com/photos/6152342/pexels-photo-6152342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="An elegant, modern hearing aid held in a hand">
                         <div class="blog-content">
-                            <h3>Choosing the Right Hearing Aid For You</h3>
-                            <a href="#" class="read-more">Read More</a>
+                            <h3>How to Choose the Perfect Hearing Aid for Your Lifestyle</h3>
+                            <a href="#" class="read-more">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </article>
                 </div>
@@ -139,34 +138,28 @@
 
         <section id="faq" class="faq-section">
             <div class="container">
-                <h2 data-aos="fade-up">Frequently Asked Questions</h2>
-                <div class="faq-accordion" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="gsap-fade-up">Your Questions, Answered</h2>
+                <div class="faq-accordion gsap-fade-up">
                     <div class="faq-item">
                         <button class="faq-question">
                             <span>What age should speech therapy begin?</span>
-                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-chevron-down"></i>
                         </button>
-                        <div class="faq-answer">
-                            <p>Early intervention is key. Speech therapy can begin as early as 18-24 months if a developmental delay is suspected. The sooner a child gets help, the better the prognosis.</p>
-                        </div>
+                        <div class="faq-answer"><p>Early intervention is key. Speech therapy can begin as early as 18-24 months if a developmental delay is suspected. The sooner a child gets help, the better the prognosis and long-term outcomes.</p></div>
                     </div>
                     <div class="faq-item">
                         <button class="faq-question">
                             <span>How do I know if I need a hearing aid?</span>
-                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-chevron-down"></i>
                         </button>
-                        <div class="faq-answer">
-                            <p>Common signs include frequently asking people to repeat themselves, turning up the TV volume louder than others prefer, and difficulty hearing in noisy environments. A comprehensive audiological evaluation can determine if a hearing aid is right for you.</p>
-                        </div>
+                        <div class="faq-answer"><p>Common signs include frequently asking people to repeat themselves, turning up the TV volume louder than others prefer, and difficulty hearing in noisy environments. A comprehensive audiological evaluation at our clinic is the definitive way to know for sure.</p></div>
                     </div>
                     <div class="faq-item">
                         <button class="faq-question">
                             <span>What is the cost of a PTA or BERA test?</span>
-                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-chevron-down"></i>
                         </button>
-                        <div class="faq-answer">
-                            <p>The cost of audiological tests can vary. Please contact our clinic directly at +91 89291 96989 for the most current pricing and to schedule an appointment. We strive to offer affordable diagnostic services.</p>
-                        </div>
+                        <div class="faq-answer"><p>The cost of audiological tests can vary. Please contact our clinic directly at +91 89291 96989 for the most current pricing and to schedule an appointment. We are committed to providing affordable, high-quality diagnostic services.</p></div>
                     </div>
                 </div>
             </div>
@@ -174,32 +167,26 @@
 
         <section id="contact" class="contact-section">
             <div class="container">
-                <div class="contact-wrapper" data-aos="fade-up">
+                <div class="contact-wrapper gsap-fade-up">
                     <div class="contact-info">
                         <h2>Reach out, we’re here to help.</h2>
-                        <p>Contact us to schedule your consultation or to inquire about our services. We look forward to hearing from you.</p>
+                        <p>Schedule your consultation or inquire about our services. We are based in Hansi and serve the surrounding regions of Hisar and Bhiwani.</p>
                         <ul>
                             <li><i class="fa-solid fa-phone"></i> <a href="tel:+918929196989">+91 89291 96989</a></li>
                             <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/917357390400" target="_blank">7357390400</a></li>
-                            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@lumenhearing.com">info@lumenhearing.com</a></li>
+                            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@lumenhearingcare.com">info@lumenhearingcare.com</a></li>
                         </ul>
                     </div>
                     <form class="contact-form">
                         <h3>Send us a Message</h3>
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" required placeholder="Your Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" id="phone" name="phone" required placeholder="Your Phone Number">
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
-                        </div>
+                        <div class="form-group"><input type="text" name="name" required placeholder="Your Name"></div>
+                        <div class="form-group"><input type="tel" name="phone" required placeholder="Your Phone Number"></div>
+                        <div class="form-group"><textarea name="message" rows="4" required placeholder="Your Message"></textarea></div>
                         <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
                 </div>
-                <div class="map-container" data-aos="fade-up" data-aos-delay="200">
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55848.51731638217!2d75.93815049909247!3d29.15546274472251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39121703a083f803%3A0x729631835770b471!2sHansi%2C%20Haryana!5e0!3m2!1sen!2sin!4v1723136275815!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="map-container gsap-fade-up">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55655.07166133221!2d75.925561044456!3d29.102324700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391219b5c654ab5b%3A0x7384a50c3d93910!2sHansi%2C%20Haryana!5e0!3m2!1sen!2sin!4v1723164893761!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
@@ -210,14 +197,14 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-about">
-                    <a href="#" class="logo">
-                        <svg class="logo-icon" width="30" height="30" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C13.57 22 15.06 21.66 16.4 21.06C16.79 21.2 17.2 21.3 17.62 21.3C19.49 21.3 21 19.8 21 18C21 16.65 20.12 15.52 18.91 15.15C19.59 14.15 20 12.93 20 11.5C20 7.84 16.83 5.34 13.5 5.04C13 3.62 11.62 2.5 10 2.5C7.99 2.5 6.27 3.86 5.6 5.69C4.19 6.54 3.1 8.1 3.03 10C3 10.17 3 10.33 3 10.5C3 11.33 3.17 12.12 3.48 12.85C2.56 13.82 2 15.06 2 16.5C2 18.43 3.57 20 5.5 20C6.07 20 6.6 19.86 7.08 19.63C7.6 20.5 8.44 21.2 9.5 21.58C10.26 21.85 11.1 22 12 22ZM10 4.5C10.83 4.5 11.5 5.17 11.5 6C11.5 6.83 10.83 7.5 10 7.5C9.17 7.5 8.5 6.83 8.5 6C8.5 5.17 9.17 4.5 10 4.5ZM5.5 18C4.67 18 4 17.33 4 16.5C4 15.67 4.67 15 5.5 15C6.33 15 7 15.67 7 16.5C7 17.33 6.33 18 5.5 18ZM17.62 19.3C16.96 19.3 16.4 18.74 16.4 18.08C16.4 17.42 16.96 16.86 17.62 16.86C18.28 16.86 18.84 17.42 18.84 18.08C18.84 18.74 18.28 19.3 17.62 19.3Z"/></svg>
+                     <a href="#" class="logo">
+                        <svg class="logo-icon" width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C13.57 22 15.06 21.66 16.4 21.06C16.79 21.2 17.2 21.3 17.62 21.3C19.49 21.3 21 19.8 21 18C21 16.65 20.12 15.52 18.91 15.15C19.59 14.15 20 12.93 20 11.5C20 7.84 16.83 5.34 13.5 5.04C13 3.62 11.62 2.5 10 2.5C7.99 2.5 6.27 3.86 5.6 5.69C4.19 6.54 3.1 8.1 3.03 10C3 10.17 3 10.33 3 10.5C3 11.33 3.17 12.12 3.48 12.85C2.56 13.82 2 15.06 2 16.5C2 18.43 3.57 20 5.5 20C6.07 20 6.6 19.86 7.08 19.63C7.6 20.5 8.44 21.2 9.5 21.58C10.26 21.85 11.1 22 12 22Z"/></svg>
                         <span>LUMEN Speech and Hearing</span>
                     </a>
                     <div class="social-media">
-                        <a href="https://instagram.com/lumenhearingcare" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://instagram.com/lumenhearingcare" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
                 <div class="footer-links">
@@ -226,24 +213,25 @@
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#faq">FAQ</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-contact">
-                    <h4>Contact Us</h4>
-                    <p><i class="fa-solid fa-location-dot"></i> Main Branch, Hansi, Haryana</p>
-                    <p><i class="fa-solid fa-phone"></i> +91 89291 96989</p>
-                    <p><i class="fa-solid fa-envelope"></i> info@lumenhearing.com</p>
+                 <div class="footer-contact">
+                    <h4>Our Locations</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> <strong>Hansi</strong> (Main Branch)</p>
+                    <p><i class="fa-solid fa-location-dot"></i> <strong>Hisar</strong></p>
+                    <p><i class="fa-solid fa-location-dot"></i> <strong>Bhiwani</strong></p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 LUMEN Speech and Hearing. All Rights Reserved.</p>
+                <p>&copy; 2025 LUMEN Speech and Hearing. Designed with care in India.</p>
             </div>
         </div>
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     
     <script src="script.js"></script>
 </body>
